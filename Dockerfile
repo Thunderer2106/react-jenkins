@@ -10,7 +10,7 @@ RUN npm install
 COPY . . 
 
 # Run tests
-# RUN npm run test
+RUN npm run test
 
 # Build production files
 RUN npm run build
